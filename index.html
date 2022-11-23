@@ -10,8 +10,34 @@
 </head>
 <body>
     <div class="container">
-        <div class="row ">
-            <div class="col navbar">Our Cookbook</div>
+        <div class="row">
+            <nav class="navbar navbar-expand-lg bg-light ">
+                <div class="container-fluid ">
+                  <a class="navbar-brand fs-1" href="#">Cookbook</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end fs-4" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      </li>
+                     
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Countries
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="aleksandra.html" target="_blank">Poland</a></li>
+                          <li><a class="dropdown-item" href="sofia.html" target="_blank">Portugal</a></li>
+                          <li><a class="dropdown-item" href="clirim.html" target="_blank">Albania</a></li>
+                          <li><a class="dropdown-item" href="jannis.html" target="_blank">Philippines</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
         </div>
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
             <div class="carousel-indicators">
@@ -22,28 +48,28 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="images/pierogi.jpg" class="d-block w-100" alt="...">
+                <a href="aleksandra.html" target="_blank"><img src="images/pierogi.jpg" class="d-block w-100" alt="..."></a>
                 <div class="carousel-caption d-none d-md-block text-dark text-bg-light bg-opacity-25">
                   <h2>Pierogi</h2>
                   <p>Polish cuisine.</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="images/codfish.jpg" class="d-block w-100" alt="...">
+                <a href="sofia.html" target="_blank"><img src="images/codfish.jpg" class="d-block w-100" alt="..."></a>
                 <div class="carousel-caption d-none d-md-block text-dark text-bg-light bg-opacity-25">
                   <h2>Bacalhau á Brás</h2>
                   <p>Portuguese cuisine.</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="images/Flija.png"  class="d-block w-100" alt="...">
+                <a href="clirim.html" target="_blank"><img src="images/Flija.png"  class="d-block w-100" alt="..."></a>
                 <div class="carousel-caption d-none d-md-block text-dark text-bg-light bg-opacity-25">
                   <h2>Flija</h2>
                   <p>Albanian cuisine.</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="images/lumpia.jpg" class="d-block w-100" alt="...">
+                <a href="jannis.html" target="_blank"><img src="images/lumpia.jpg" class="d-block w-100" alt="..."></a>
                 <div class="carousel-caption d-none d-md-block text-dark text-bg-light bg-opacity-25">
                   <h2>Lumpia</h2>
                   <p>Philippine cuisine.</p>
