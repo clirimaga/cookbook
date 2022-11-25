@@ -10,3 +10,12 @@ const alert2 = function() {
 }
 btn1.addEventListener('click', alert1)
 btn2.addEventListener('click', alert2)
+
+
+function myFunction() {
+    window.print();
+}
+
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+  });
